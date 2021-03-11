@@ -1,4 +1,4 @@
-module fibo
+module github.com/irvinghu07/Go-Micro-Demo
 
 go 1.15
 
