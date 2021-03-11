@@ -1,4 +1,4 @@
-module github.com/irvinghu07/Go-Micro-Demo
+module github.com/irvinghu07/go-micro-demo
 
 go 1.15
 
