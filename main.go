@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fibo/handler"
-	pb "fibo/proto"
+	"github.com/irvinghu07/go-micro-demo/handler"
+	pb "github.com/irvinghu07/go-micro-demo/proto"
 
 	"github.com/micro/micro/v3/service"
 	"github.com/micro/micro/v3/service/logger"

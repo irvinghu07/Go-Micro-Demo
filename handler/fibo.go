@@ -5,7 +5,7 @@ import (
 
 	log "github.com/micro/micro/v3/service/logger"
 
-	fibo "fibo/proto"
+	fibo "github.com/irvinghu07/go-micro-demo/proto"
 )
 
 type Fibo struct{}
