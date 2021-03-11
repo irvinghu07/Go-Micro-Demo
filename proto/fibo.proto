@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package fibo;
+
+option go_package = "proto;fibo";
+
+service Fibo {
+	rpc Cal (FiboRequest) returns (FiboResponse);
+}
+
+message FiboRequest {
+	int64 rank = 1;
+}
+
+message FiboResponse {
+	int64 result = 1;
+}
